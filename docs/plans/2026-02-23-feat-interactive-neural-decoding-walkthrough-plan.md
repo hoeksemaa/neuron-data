@@ -1,7 +1,7 @@
 ---
 title: "feat: Interactive Neural Decoding Walkthrough"
 type: feat
-status: active
+status: completed
 date: 2026-02-23
 brainstorm: docs/brainstorms/2026-02-23-neural-decoding-walkthrough-brainstorm.md
 ---
@@ -233,22 +233,22 @@ index.html                      # Vite entry
 ## Acceptance Criteria
 
 ### Functional
-- [ ] Page loads with 50 neurons displayed on a unit circle
-- [ ] Clicking the ring sets a direction and generates a raster plot
-- [ ] Raster plot shows spikes for all 50 neurons; neurons near chosen direction visibly fire more
-- [ ] Tuning curve panel shows 50 curves; clicking a neuron highlights its curve
-- [ ] Population vector diagram shows individual contributions and resultant arrow
-- [ ] Decoded direction drives a cursor dot; ground truth shown as reference
-- [ ] Noise slider (0–1) degrades decode accuracy; angular error displayed numerically
-- [ ] All steps use the same direction/spike data (shared state)
-- [ ] Each step has a brief instructional prompt
-- [ ] Page is vertically scrollable, all sections visible
+- [x]Page loads with 50 neurons displayed on a unit circle
+- [x]Clicking the ring sets a direction and generates a raster plot
+- [x]Raster plot shows spikes for all 50 neurons; neurons near chosen direction visibly fire more
+- [x]Tuning curve panel shows 50 curves; clicking a neuron highlights its curve
+- [x]Population vector diagram shows individual contributions and resultant arrow
+- [x]Decoded direction drives a cursor dot; ground truth shown as reference
+- [x]Noise slider (0–1) degrades decode accuracy; angular error displayed numerically
+- [x]All steps use the same direction/spike data (shared state)
+- [x]Each step has a brief instructional prompt
+- [x]Page is vertically scrollable, all sections visible
 
 ### Non-Functional
-- [ ] No visible jank when changing direction or noise (< 100ms re-render)
-- [ ] Works in Chrome and Firefox (Safari nice-to-have)
-- [ ] Deployed to Netlify, SPA routing works
-- [ ] Build succeeds with zero TS errors
+- [x]No visible jank when changing direction or noise (< 100ms re-render)
+- [x]Works in Chrome and Firefox (Safari nice-to-have)
+- [x]Deployed to Netlify, SPA routing works
+- [x]Build succeeds with zero TS errors
 
 ### Explicitly Deferred
 - Mobile/responsive layout
